@@ -188,6 +188,7 @@ export function DashboardLayout({ user, onNavigateHome, onNavigateUsers, onLogou
     });
   }, []);
 
+  // Load data function with memoization to prevent unnecessary re-fetching
   const loadData = useCallback(async (startDate?: string, endDate?: string) => {
     setLoading(true);
     try {
