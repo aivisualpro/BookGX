@@ -69,7 +69,7 @@ export function ConversionFunnel({ data }: ConversionFunnelProps) {
         })}
       </div>
 
-      {/* Summary */}
+      
       <div className="mt-6 pt-4 border-t border-glass-border">
         <div className="grid grid-cols-2 gap-4 text-center">
           <div>
